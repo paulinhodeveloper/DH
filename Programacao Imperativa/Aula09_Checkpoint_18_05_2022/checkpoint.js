@@ -1,3 +1,5 @@
+//armazenamento das constantes e tempos default
+
 const pratos = {
   1: { nome: 'Pipoca', time: 10 },
   2: { nome: 'Macarrão', time: 8 },
@@ -8,6 +10,8 @@ const pratos = {
 
 //função fazer pratos
 function fazerPrato(numeroPrato, time) {
+
+  //armazena valor preciosando no micro-ondas
   const prato = pratos[numeroPrato];
 
   //validação de valor inexistente
@@ -17,6 +21,8 @@ function fazerPrato(numeroPrato, time) {
 
   //visor do micro-ondas
   let visor;
+
+  //armazenamento do tempos
   const timeDefault = prato.time;
 
   //logica do micro-ondas
