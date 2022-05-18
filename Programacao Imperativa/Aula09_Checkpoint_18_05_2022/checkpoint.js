@@ -14,7 +14,7 @@ const pratos = {
     }
   
     let visor;
-    const tempoDefault = prato.time;
+    const timeDefault = prato.time;
   
     if (time < timeDefault) {
       visor = 'Tempo insuficiente';
