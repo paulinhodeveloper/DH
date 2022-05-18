@@ -11,7 +11,7 @@ const pratos = {
 //função fazer pratos
 function fazerPrato(numeroPrato, time) {
 
-  //armazena valor preciosando no micro-ondas
+  //armazena valor precionado no micro-ondas
   const prato = pratos[numeroPrato];
 
   //validação de valor inexistente
