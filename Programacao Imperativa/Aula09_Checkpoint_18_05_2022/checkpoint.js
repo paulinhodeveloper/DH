@@ -10,22 +10,22 @@ function fazerPrato(numeroPrato, time) {
   const prato = pratos[numeroPrato];
 
   if (!pratos) {
-    return console.log('Prato inexistente. Prato pronto, bom apeite!!!');
+    return console.log('Prato inexistente');
   }
 
   let visor;
   const timeDefault = prato.time;
 
   if (time < timeDefault) {
-    visor = 'Tempo insuficiente. Prato pronto, bom apeite!!!';
+    visor = 'Tempo insuficiente';
   } else if (time > timeDefault * 2 && time <= timeDefault * 3) {
-    visor = 'A comida queimou. Prato pronto, bom apeite!!!';
+    visor = 'A comida queimou';
   } else if (time > timeDefault * 3) {
-    visor = 'Kabummm. Prato pronto, bom apeite!!!';
+    visor = 'Kabummm';
   } else {
     visor = 'Prato pronto, bom apeite!!!';
   }
 
  return console.log(visor);
 }
-console.log(fazerPrato(4,10))
+console.log(fazerPrato(4,10) + Prato pronto, bom apeite!!!)
