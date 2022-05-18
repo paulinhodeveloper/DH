@@ -40,5 +40,5 @@ function fazerPrato(numeroPrato, time) {
  return console.log(visor);
 }
 
-//intereção com usuário (Prato + Comida)
+//intereção com usuário (Prato + tempo)
 console.log(fazerPrato(4,20))
