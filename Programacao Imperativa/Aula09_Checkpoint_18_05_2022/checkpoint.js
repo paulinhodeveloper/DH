@@ -16,11 +16,11 @@ const pratos = {
     let visor;
     const tempoDefault = prato.time;
   
-    if (time < tempoDefault) {
+    if (time < timeDefault) {
       visor = 'Tempo insuficiente';
-    } else if (time > tempoDefault * 2 && time <= tempoDefault * 3) {
+    } else if (time > timeDefault * 2 && time <= timeDefault * 3) {
       visor = 'A comida queimou';
-    } else if (time > tempoDefault * 3) {
+    } else if (time > timeDefault * 3) {
       visor = 'Kabummm';
     } else {
       visor = 'Prato pronto, bom apeite!!!';
