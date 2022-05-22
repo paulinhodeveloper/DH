@@ -2,18 +2,18 @@
 
 function MaiorMenor(n1, n2, n3) {
   if (n1 > n3 && n1 > n2) {
-    console.log(n1 + ' ' + 'e o maior Numero!');
+    console.log(n1 + ' ' + 'é o maior Numero!');
   }
   else if (n3 > n1 && n3 > n2) {
-    console.log(n3 + ' ' + 'e o maior Numero!');
+    console.log(n3 + ' ' + 'é o maior Numero!');
   }
   else if
     (n2 > n3 && n2 > n1) {
-    console.log(n2 + ' ' + 'e o maior Numero!');
+    console.log(n2 + ' ' + 'é o maior Numero!');
   }
 
   else (
-    console.log('Atenção! Existe doi valores iguais')
+    console.log('Atenção! Existe dois valores iguais, verifique novamente')
   )
 }
 console.log(MaiorMenor(30, 20, 70));
