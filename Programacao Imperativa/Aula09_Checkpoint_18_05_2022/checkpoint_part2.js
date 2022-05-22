@@ -55,7 +55,7 @@ function aprovaAluno(nota1, nota2) {
     console.log(resultado + ' ' + '- Aluno Aprovado');
   }
   else if
-    (resultado >= 0 && resultado <= 7.0) {
+    (resultado >= 0 && resultado <= 6.0) {
     console.log(resultado + ' ' + '- Aluno Reprovado');
   }
 
