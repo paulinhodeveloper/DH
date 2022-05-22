@@ -41,8 +41,5 @@ function fazerPrato(numeroPrato, time) {
 }
 
 //intereção com usuário (Prato + tempo)
-<<<<<<< HEAD
 console.log(fazerPrato(4,20))
-=======
-console.log(fazerPrato(4,20))
->>>>>>> 845d0c3926c62862a9c036955dcf3ca2e31c41a9
+

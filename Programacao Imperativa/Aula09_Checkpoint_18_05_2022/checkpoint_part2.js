@@ -32,6 +32,8 @@ function DoarSangue(idade) {
 }
 console.log(DoarSangue(18));
 
+//Exercício 3
+
 function verificaNegativoPositivo(valor) {
   if (valor < 0) {
     console.log(valor + ' ' + 'O numero é negativo');
@@ -42,7 +44,7 @@ function verificaNegativoPositivo(valor) {
 console.log(verificaNegativoPositivo(-1));
 
 
-//Exercício 3
+//Exercício 4
 
 function aprovaAluno(nota1, nota2) {
 
