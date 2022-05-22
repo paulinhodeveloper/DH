@@ -41,5 +41,4 @@ function fazerPrato(numeroPrato, time) {
 }
 
 //intereção com usuário (Prato + tempo)
-console.log(fazerPrato(4,20))
-
+console.log(fazerPrato(4,20));

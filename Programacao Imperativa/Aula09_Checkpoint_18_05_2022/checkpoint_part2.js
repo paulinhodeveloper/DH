@@ -36,9 +36,9 @@ console.log(DoarSangue(18));
 
 function verificaNegativoPositivo(valor) {
   if (valor < 0) {
-    console.log(valor + ' ' + 'O numero é negativo');
+    console.log(valor + ' ' + 'O numero é negativo.');
   } else {
-    console.log(valor + ' ' + 'O numero é Positivo');
+    console.log(valor + ' ' + 'O numero é Positivo.');
   }
 }
 console.log(verificaNegativoPositivo(-1));
@@ -54,15 +54,15 @@ function aprovaAluno(nota1, nota2) {
     console.log(resultado + ' ' + '- Aluno Aprovado com Distição!');
   }
   else if (resultado >= 7.0 && resultado <= 9.0) {
-    console.log(resultado + ' ' + '- Aluno Aprovado');
+    console.log(resultado + ' ' + '- Aluno Aprovado.');
   }
   else if
     (resultado >= 0 && resultado <= 6.0) {
-    console.log(resultado + ' ' + '- Aluno Reprovado');
+    console.log(resultado + ' ' + '- Aluno Reprovado.');
   }
 
   else (
-    console.log(resultado + ' ' + 'Atenção! Verifique os valores informado')
+    console.log(resultado + ' ' + 'Atenção! Verifique os valores informado.')
   )
 }
 console.log(aprovaAluno(6, 5));
