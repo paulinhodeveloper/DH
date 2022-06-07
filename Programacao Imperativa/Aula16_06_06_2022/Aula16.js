@@ -7,7 +7,10 @@ Ex1 = (num1, num2) => {
             console.log(i + ' - Buzz');
         } else if (i % num1 == 0 && i % num2 == 0) {
             console.log(i + ' - FizzBuzz');
+        }else {
+            console.log(i);
         }
+
     }
 }
 
