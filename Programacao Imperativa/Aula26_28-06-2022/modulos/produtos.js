@@ -39,12 +39,12 @@ let produtos = [
         "nome": "licença Microsoft OneDrive 2TB",
         "preco": 499,
         "qualidade": 6,
-        "status": true
+        "status": false
     },
     {
         "nome": "licença Microsoft OneDrive Family",
         "preco": 700,
-        "qualidade": 5,
+        "qualidade": 7,
         "status": true
     }
 ];
