@@ -9,7 +9,7 @@ let produtos = [
         "nome": "licença Microsoft Windows 11",
         "preco": 700,
         "qualidade": 10,
-        "status": false
+        "status": true
     },
     {
         "nome": "licença Microsoft Office365",
